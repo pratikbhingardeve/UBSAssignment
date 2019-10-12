@@ -1,0 +1,6 @@
+Instrument,Account,AccountType,Quantity
+TCS,101,E,10000
+FB,201,I,35000
+APPL,101,E,60000
+AMZN,201,I,45000
+FLKRT,101,E,56000

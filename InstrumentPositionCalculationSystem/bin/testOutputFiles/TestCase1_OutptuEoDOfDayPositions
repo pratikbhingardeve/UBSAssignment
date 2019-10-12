@@ -1,0 +1,6 @@
+Instrument	Account	AccountType	Quantity	Delta
+FB	201	I	35200	200
+APPL	101	E	60000	0
+FLKRT	101	E	56000	0
+TCS	101	E	11000	1000
+AMZN	201	I	45000	0

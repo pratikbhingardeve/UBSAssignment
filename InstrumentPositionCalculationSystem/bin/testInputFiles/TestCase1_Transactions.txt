@@ -1,0 +1,14 @@
+[
+   {
+      "TransactionId": 1,
+      "Instrument": "TCS",
+      "TransactionType": "B",
+      "TransactionQuantity": 1000
+   },
+   {
+      "TransactionId": 2,
+      "Instrument": "FB",
+      "TransactionType": "S",
+      "TransactionQuantity": 200
+   }
+]
