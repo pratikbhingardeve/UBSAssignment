@@ -22,9 +22,9 @@ public class TestService {
 		
 		service = new PositionCalculationService();
 		config = new Properties();
-		config.setProperty("input.init.positions.feed", APP_HOME+File.separator+"testInputFiles"+File.separator+"TestCase1_InputStartOfDayPositions.txt");
-		config.setProperty("input.transactions.feed",APP_HOME+File.separator+"testInputFiles"+File.separator+"TestCase1_Transactions.txt");
-		config.setProperty("output.eod.positions.feed", APP_HOME+File.separator+"testOutputFiles"+File.separator+"TestCase1_OutptuEoDOfDayPositions");
+		config.setProperty("input.init.positions.feed", APP_HOME+File.separator+"testInputFiles"+File.separator+"TestCase2_InputStartOfDayPositions.txt");
+		config.setProperty("input.transactions.feed",APP_HOME+File.separator+"testInputFiles"+File.separator+"TestCase2_Transactions.txt");
+		config.setProperty("output.eod.positions.feed", APP_HOME+File.separator+"testOutputFiles"+File.separator+"TestCase2_OutptuEoDOfDayPositions");
 		
 	}
 	
