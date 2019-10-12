@@ -33,6 +33,12 @@ Prerequisites:
 - Download the project from github using git link: https://github.com/pratikbhingardeve/UBSAssignment 
 - Import in workspace.
 - Configure project as maven project.
+- Make sure following folders are present in your project directory if not then create it.
+	input
+	output
+	testInputFiles
+	testOutputFiles
+	
 - Build it and run it with System Parameter:
 	E.g.
 	input.init.positions=Input_StartOfDay_Positions.txt 
