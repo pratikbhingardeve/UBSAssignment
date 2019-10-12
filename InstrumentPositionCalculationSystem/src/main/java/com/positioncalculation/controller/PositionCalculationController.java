@@ -59,10 +59,10 @@ public class PositionCalculationController {
 			 * Invoke service layer interface to calculate EOD positions and generate output feed.
 			 */
 			if(service.calculateEodPositionAndPrepareOutputFeed(outputEndOfDayPositionFileName)) {
-				logger.info("EOD Instrument Account position's Output Feed file successfully generated:{}",inputTransactionsFileName);
+				logger.info("EOD Instrument Account position's Output Feed file successfully generated:{}",outputEndOfDayPositionFileName);
 			}
 			else {
-				logger.info("Failed to calculate EOD position and generate output feed file:{}",inputTransactionsFileName);
+				logger.info("Failed to calculate EOD position and generate output feed file:{}",outputEndOfDayPositionFileName);
 				return false;
 			}
 			
