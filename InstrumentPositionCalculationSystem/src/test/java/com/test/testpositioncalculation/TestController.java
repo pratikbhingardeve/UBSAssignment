@@ -1,5 +1,12 @@
 package com.test.testpositioncalculation;
 
+/*
+ * 
+ * @Test Class
+ * TestController.java:
+ * 		This class is junit test cases to test PositionCalculationController.java class
+ * 
+ */
 import java.io.File;
 import java.util.Properties;
 
@@ -28,6 +35,11 @@ public class TestController {
 		
 	}
 	
+	
+	/*
+	 * This is positive test case.
+	 * To test the result of invoking controller with all required inputs. 
+	 */
 	
 	@Test
 	public void TestControllerRunMethod() {

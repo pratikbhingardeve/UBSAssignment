@@ -1,5 +1,13 @@
 package com.test.testpositioncalculation;
 
+/*
+ * 
+ * @Test Class
+ * TestService.java:
+ * 		This class is junit test cases to test PositionCalculationService.java class
+ * 
+ */
+
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
