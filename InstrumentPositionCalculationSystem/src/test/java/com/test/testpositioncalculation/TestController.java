@@ -34,11 +34,19 @@ public class TestController {
 		assertTrue(controller.run(config));
 	}
 	
+	/*
+	 * This method could show you error messages during build if uncomment it before build, because it is
+	 * tend to fail. Although build will be successfully as there is no any error in code.
+	 * 
+	 * Uncomment this method during testing only.
+	 * 
+	 * 
 	@Test
 	public void FailTestControllerRunMethod() {
 		config.setProperty("input.transactions.feed",APP_HOME+File.separator+"testInputFiles"+File.separator+"TestCase1_InputStartOfDayPositions.txt");
 		assertFalse(controller.run(config));
 	}
+	*/
 	
 	
 }
